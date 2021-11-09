@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: arn:aws:s3:::dev-data-bucket-382907205309
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: hello
+  POSTGRES_DB: Udagram
+  POSTGRES_HOST: dev-dataset.cmdsxvuwem8e.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
